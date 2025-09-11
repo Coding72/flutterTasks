@@ -1,0 +1,14 @@
+{
+  "roots": [
+    "task_4_2_2"
+  ],
+  "packages": [
+    {
+      "name": "task_4_2_2",
+      "version": "1.0.0",
+      "dependencies": [],
+      "devDependencies": []
+    }
+  ],
+  "configVersion": 1
+}

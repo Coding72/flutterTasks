@@ -1,0 +1,16 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "task_4_2_2",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.9.2",
+  "flutterRoot": "file:///C:/portable/flutter",
+  "flutterVersion": "3.35.3",
+  "pubCache": "file:///C:/Users/Ralph/AppData/Local/Pub/Cache"
+}
