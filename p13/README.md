@@ -1,16 +1,35 @@
 # p13
 
-A new Flutter project.
 
-## Getting Started
+### todo 
 
-This project is a starting point for a Flutter application.
+#### links 
+https://fluttergems.dev/3d/
 
-A few resources to get you started if this is your first Flutter project:
+https://fluttergems.dev/packages/three_dart/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+https://fluttergems.dev/packages/flutter_3d_controller/
+https://pub.dev/packages/flutter_3d_controller
+https://pub.dev/documentation/flutter_3d_controller/latest/
+https://github.com/m-r-davari/flutter_3d_controller
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://fluttergems.dev/packages/model_viewer_plus/
+https://pub.dev/packages/model_viewer_plus
+https://github.com/omchiii/model_viewer_plus.dart
+https://pub.dev/documentation/model_viewer_plus/latest/
+
+https://fluttergems.dev/packages/flutter_earth_globe/
+https://pub.dev/packages/flutter_earth_globe
+https://github.com/pana-g/flutter_earth_globe
+https://pub.dev/documentation/flutter_earth_globe/latest/
+
+
+wie geht das mit eigenen themes
+kann ich die widget class überschreiben, 
+helper.css lines oder bereiche einfärben hook ?
+
+flutter_3d_controller
+
+flutter_scene
+
+

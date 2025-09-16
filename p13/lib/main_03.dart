@@ -1,8 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:p13/lib01.dart';
-
 /**
  * @todo
  * load Base64 encoded font Almendra SC und open sans
@@ -80,58 +78,20 @@ class MyApp2 extends StatelessWidget {
     );
   }
 
-}
-
-//#region [rgba(165,245,205,0.1)] ===== widgets =====
-Widget _buildGridItem(String text) {
-  return Container(
-    alignment: Alignment.center, // Text zentrieren
-    decoration: BoxDecoration(
-      border: Border.all(color: Colors.white, width: 2), // Rahmen um die Teile
-    ),
-    child: Text(
-      text,
-      style: TextStyle(
-        color: Colors.black, // Textfarbe
-        fontSize: 24, // Schriftgröße
+  Widget _buildGridItem(String text) {
+    return Container(
+      alignment: Alignment.center, // Text zentrieren
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.white, width: 2), // Rahmen um die Teile
       ),
-    )
-  );
-}
-//#endregion ===== widgets =====
-
-//#region [rgba(165,245,205,0.1)] ===== classes =====
-
-class TimerEvent {
-  final String message;
-
-  TimerEvent(this.message);
-}
-
-class TimerService {
-  //final StreamController<TimerEvent> _controller = StreamController<TimerEvent>();
-  Timer? _timer;
-  int _seconds = 0;
-
-  TimerService() {
-    _startTimer();
+      child: Text(
+        text,
+        style: TextStyle(
+          color: Colors.black, // Textfarbe
+          fontSize: 24, // Schriftgröße
+        ),
+      )
+    );
   }
-
-  void _startTimer() {
-    _timer = Timer.periodic(Duration(seconds: 1), (timer) {
-      _seconds++;
-      if (_seconds == 5) {
-        //_controller.add(TimerEvent('5 Sekunden sind vergangen!'));
-      }
-    });
-  }
-
-  //Stream<TimerEvent> get timerStream => _controller.stream;
-
-  void stopTimer() {
-    _timer?.cancel();
-    //_controller.close();
-  }
+  
 }
-
-//#endregion ===== classes =====
