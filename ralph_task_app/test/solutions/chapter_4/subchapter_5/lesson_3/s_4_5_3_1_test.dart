@@ -13,8 +13,6 @@ void main() {
     // Überprüfen, ob eine Column vorhanden ist
     expect(find.byType(Column), findsOneWidget);
 
-
-
     List<Color> colors = [Colors.blueGrey, Colors.blue, Colors.cyan];
 
     // Überprüfen, ob die Container die richtigen Farben und Dimensionen haben und in einer Column sind
