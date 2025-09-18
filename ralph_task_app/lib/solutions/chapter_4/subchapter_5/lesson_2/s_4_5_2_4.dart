@@ -25,9 +25,9 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
         Text(_name),
         ElevatedButton(onPressed: (){ 
           if (_name=="") {
-            _name = "Ralph"; _buttonText = "Name verstecken"; 
+            _name = "Ralph"; _buttonText = "Name verstecken";
           } else {
-            _name = ""; _buttonText = "Name anzeigen"; 
+            _name = ""; _buttonText = "Name anzeigen";
           }         
           setState(() {});} , child: Text(_buttonText))
       ]
