@@ -20,7 +20,9 @@ class Widget_4_5_3_3 extends StatelessWidget {
     Container(
       width:150,
       height:150,
+      color: Colors.blue,
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text("App"),
           Text("Akademie")

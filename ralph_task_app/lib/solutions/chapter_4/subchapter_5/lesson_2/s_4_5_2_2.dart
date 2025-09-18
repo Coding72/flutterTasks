@@ -16,7 +16,7 @@ class MyStatelessWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
         children: <Widget>[
-          Text("Hallo Ralph"),
+          Text("Hello Ralph"),
           ElevatedButton(onPressed: (){}, child: const Text('Klick mich'))        
         ],
       );

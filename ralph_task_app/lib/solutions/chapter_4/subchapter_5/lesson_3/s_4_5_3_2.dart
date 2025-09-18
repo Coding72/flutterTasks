@@ -22,8 +22,8 @@ class Widget_4_5_3_2 extends StatelessWidget {
     Column(
       children: [
         Text("App Akademie"),
-        Text("App Akademie", style: TextStyle(fontSize: 16)),
-        Text("App Akademie", style: TextStyle(fontSize: 10, fontStyle: FontStyle.italic))
+        Text("App Akademie", style: TextStyle(fontSize: 16, color: Colors.blue, fontWeight: FontWeight.bold)),
+        Text("App Akademie", style: TextStyle(fontSize: 10, color: Colors.green, fontStyle: FontStyle.italic))
       ],
     );    
   }

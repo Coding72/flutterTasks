@@ -1,1 +1,33 @@
-# Flutter Tasks
+## Besprochene Widgets und Classes
+
+[Widgets](https://docs.flutter.dev/get-started/fundamentals/widgets)\
+[StatelessWidget](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html?)\
+[StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html?)\
+  [setState](https://api.flutter.dev/flutter/widgets/State/setState.html\)
+[Container]()\
+[Row]()\
+[Column]()\
+[Card]()\
+[PageView]()\
+[SafeArea]()\
+[EdgeInsets]()\
+[IconButton]()\
+[FloatingActionButton]()\
+[FilledButton]()\
+[ElevatedButton]()\
+[Icons]()\
+[Icon]()\
+[Colors]()\
+[Color]()\
+[Text]()\
+[LiewView]()\
+[GridView]()\
+[MaterialApp]()\
+[Scaffold]()\
+[AppBar]()\
+[MainAxisAlignment]()\
+[CrossAxisAlignment]()\
+[ListElementWidget]()\
+[SizedBox]()\
+[FontStyle]()\
+[TextStyle]()\
