@@ -41,11 +41,15 @@ SingleChildScrollView\
 Slider 
 https://api.flutter.dev/flutter/material/Slider-class.html
 
-NavigationBar 
+NavigationBar  https://api.flutter.dev/flutter/material/NavigationBar-class.html
+BottomNavigationBar https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
 
-Builder
+gridview https://api.flutter.dev/flutter/widgets/GridView-class.html
 
-Stack
+Builder https://api.flutter.dev/flutter/widgets/Builder-class.html
+
+Stack https://api.flutter.dev/flutter/widgets/Stack-class.html
+
 
 
 
