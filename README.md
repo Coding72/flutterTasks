@@ -23,7 +23,6 @@
 [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)\
 [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html)\
 [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)\
-[MaterialApp](https://api.flutter.dev/flutter/material/MaterialApp-class.html)\
 [Scaffold](https://api.flutter.dev/flutter/material/Scaffold-class.html)\
 [AppBar](https://api.flutter.dev/flutter/material/AppBar-class.html)\
 [MainAxisAlignment](https://api.flutter.dev/flutter/rendering/MainAxisAlignment.html)\
@@ -33,36 +32,35 @@
 [TextStyle](https://api.flutter.dev/flutter/painting/TextStyle-class.html)\
 [TextField](https://api.flutter.dev/flutter/material/TextField-class.html)\
 [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html)\
-expanded\
-  https://api.flutter.dev/flutter/widgets/Expanded-class.html\
-SingleChildScrollView\
-  https://docs.flutter.dev/ui/widgets/scrolling\
-  https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html?\
-Slider 
-https://api.flutter.dev/flutter/material/Slider-class.html
+[Expanded](https://api.flutter.dev/flutter/widgets/Expanded-class.html)\
+[Scrolling](https://docs.flutter.dev/ui/widgets/scrolling)\
+[SingleChildScrollView](https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html?)\
+[Slider](https://api.flutter.dev/flutter/material/Slider-class.html)\
+[NavigationBar](https://api.flutter.dev/flutter/material/NavigationBar-class.html)\
+[BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)\
+[GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html)\
+[Builder](https://api.flutter.dev/flutter/widgets/Builder-class.html)\
+[Stack](https://api.flutter.dev/flutter/widgets/Stack-class.html)\
+[ClipOval](https://api.flutter.dev/flutter/widgets/ClipOval-class.html)\
+[CircleAvatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html)\
+[EdgeInsets](https://api.flutter.dev/flutter/painting/EdgeInsets-class.html)\
+[Padding](https://api.flutter.dev/flutter/widgets/Padding-class.html)\
+[Image](https://api.flutter.dev/flutter/widgets/Image-class.html)\
+[AssetImage](https://api.flutter.dev/flutter/painting/AssetImage-class.html)\
+[Navigator](https://api.flutter.dev/flutter/widgets/Navigator-class.html)\
+  .of(context).pop() pop until
+[ModalRoute](https://api.flutter.dev/flutter/widgets/ModalRoute-class.html)\  wegen übergabe von arguments
+[MaterialPageRoute](https://api.flutter.dev/flutter/material/MaterialPageRoute-class.html)\
+[InkWell](https://api.flutter.dev/flutter/material/InkWell-class.html)\
+[GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)\
+[Events](https://api.flutter.dev/flutter/dart-html/Events-class.html)\
+[BottomNavigationBar](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)\
+[IndexedStack](https://api.flutter.dev/flutter/widgets/IndexedStack-class.html)\
 
-NavigationBar  https://api.flutter.dev/flutter/material/NavigationBar-class.html
-BottomNavigationBar https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html
+--- 
 
-gridview https://api.flutter.dev/flutter/widgets/GridView-class.html
-
-Builder https://api.flutter.dev/flutter/widgets/Builder-class.html
-
-Stack https://api.flutter.dev/flutter/widgets/Stack-class.html
-
-
-
-
-
-
-
-
-Function call back / events
-
-bottomnavigationbar
-
-indexedStack
-
-
+Function call back / events 
+https://dart.dev/libraries/dart-async
+https://dart.dev/libraries/async/using-streams
 custom widget
 
