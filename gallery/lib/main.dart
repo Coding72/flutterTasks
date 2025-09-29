@@ -1,21 +1,35 @@
-import 'package:flutter/material.dart';
+//#region [rgba(165,245,205,0.1)] ===== imports =====
+  import 'package:flutter/material.dart';
+
+  import 'gallerydaten.dart';
+  import 'pages/gallery.dart';
+  import 'pages/pic.dart';
+  import 'pages/about.dart';
+//#endregion ===== imports =====
 
 void main() {
-  runApp(const Gallery());
+  runApp(
+    MaterialApp(
+      //home:BigPicPage(itemID:1),
+      home:GalleryPage(),
+      //initialRoute: '/gallery',
+      routes: {
+        '/gallery': (context) => GalleryPage(),
+        //'/bigpic': (context) => BigPicPage(itemID),
+        //'/about': (context) => AboutPage(),
+      },
+      debugShowCheckedModeBanner: false,
+    )
+  );
 }
 
-class Gallery extends StatelessWidget {
+class Start extends StatelessWidget{
 
-  const Gallery({super.key});
-
+  const Start({super.key});
+      
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) { 
     return
-    MaterialApp(
-      Scaffold(
-        body: Text("");
-
-      )
-    );
+    Scaffold();
   }
 }
