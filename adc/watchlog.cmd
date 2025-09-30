@@ -1,0 +1,1 @@
+wsl watch tail -f -n 100 flutter.log

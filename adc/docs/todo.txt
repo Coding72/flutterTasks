@@ -1,0 +1,7 @@
+in jeder page ein scaffold mit page am ende
+
+productdatas.dart
+ingedients
+rating
+price
+image

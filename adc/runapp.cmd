@@ -1,0 +1,1 @@
+flutter run -t lib/main.dart -d "emulator-5554" >> flutter.log
