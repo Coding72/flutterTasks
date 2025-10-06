@@ -7,14 +7,14 @@ default ist medium
 */
 
 class ProductItem {
-  final String? productName, imageDate, imageDescription;
+  final String? productName, productInfoShort, productInfoLong, productDescription;
   final String imagePath;
   final double price;
   final String ingredients;
   final int rating;
   final int likes;
 
-  ProductItem({required this.productName, this.productInfoShort, this.productInfoLong, this.productDescription="", required this.imagePath});
+  ProductItem({required this.productName, this.productInfoShort, this.productInfoLong, this.productDescription="", required this.imagePath, this.price=0, this.ingredients="", this.likes=0, this.rating=0});
 }
 
 List<ProductItem> galleryData = [
@@ -51,6 +51,7 @@ enum EIngedients {
   glutenFree,
   noFat,
   sugarFree,
+  none
 }
 
 class Ingredients { 
@@ -58,5 +59,6 @@ class Ingredients {
   static String glutenFree = 'assets/graphics/icons/ingredients/gluten-free.png';
   static String noFat = 'assets/graphics/icons/ingredients/no-fat.png';
   static String sugarFree = 'assets/graphics/icons/ingredients/sugar-free.png';
+  static String none = '';
 }
 

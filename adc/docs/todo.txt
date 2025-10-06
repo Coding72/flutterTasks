@@ -1,7 +1,17 @@
 in jeder page ein scaffold mit page am ende
 
-productdatas.dart
+productdata.dart
 ingedients
 rating
 price
 image
+
+font laden und herz testen
+
+--
+  button von gestern nachbauen
+
+  padding außen
+  row 
+  space beetween
+--
